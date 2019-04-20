@@ -1,0 +1,124 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Python Web</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/normas">Normas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/help">Ayuda</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <body>
+
+        <div id="i-preguntas">
+            <div id="encabezado-j">
+                <style>
+                    #myHeader{
+                        background-color: brown;
+                        color: whitesmoke;
+                        padding: 50px;
+                        text-align: center;
+                    }</style>
+                <h3 id="myHeader">¿A quién prefieres?</h3>
+                <div class="opciones_e_imagenes">
+                            <div class="opcion-a">
+                                            <style>
+                                                .edita{
+                                                    margin: 32px;
+                                                    height: 7vh;
+                                                    width: 70vh;
+                                                    background-color: rgb(187, 51, 51);
+                                                    top: 38%;
+                                                    border: 1px solid black;
+                                            }       
+                                                #estiloA{
+                                                margin: 10px;                              
+                                                background-color: #757575;
+                                                background-size: cover;
+                                                color: black;
+                                                padding: 1px;
+                                                height: 3vh;
+                                                width: 10vh;
+                                                text-align: center;
+                                                }</style>
+                                            <table class="edita">
+                                                <tr>
+                                                    <td>
+                                                        <h5 id="estiloA">Opción A</h5>
+                                                        <img src="" alt="" style="width:300px">
+                                                        <p></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                            </div>
+                        
+                            <div class="opcion-b">
+
+                                    <style>
+                                        .editb{
+                                            position: absolute;
+                                            right: 82px;
+                                            height: 7vh;
+                                            width: 77vh;
+                                            top: 23%;
+                                            background-color: rgb(187, 51, 51);
+                                            border: 1px solid black;
+
+                                        }
+                                        #estiloB{
+                                            margin: 10px;
+                                            background-color: #757575;
+                                            background-size: cover;
+                                            color: black;
+                                            padding: 1px;
+                                            height: 3vh;
+                                            width: 10vh;
+                                            text-align: center;
+                                        }</style>
+                                        <table class="editb">
+                                            <tr>
+                                                <td>
+                                                    <h5 id="estiloB">Opción B</h5>
+                                                    <img src="" alt="" style="width:300px">
+                                                    <p></p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                            </div>
+                            <div class="imagen-a">
+                                <style>
+                                    .imagena{
+                                        background-color: black
+                                        border: 3px solid black;
+                                    }</style>
+                                <table class="imagena">
+                                    <img src="https://www.w3schools.com/images/picture.jpg" alt="ads" style="width:300px">
+                                </table>
+                            </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</body>
+{% endblock %}

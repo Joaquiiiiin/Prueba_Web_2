@@ -1,0 +1,78 @@
+.inicio-juego{
+    margin: 0;
+    padding: 0;
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.login-box{
+    width: 470px;
+    height: 220px;
+    color: #Fff;
+    top: 60%;
+    left: 42%;
+    position: absolute ;
+    transform: translate(-50%, -50%);
+    box-sizing: content-box;
+    padding: 60px 50px;
+    
+}
+
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #2f1200;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3px
+}
+
+
+.encabezado{
+    text-align: center;
+}
+
+.flex-nowrap{
+    width: 570px
+}
+
+/* APARTADO AYUDA */
+
+.ayuda{
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.ayuda{
+    text-align: center
+}
+
+/* APARTADO NORMAS  */
+
+.b-normas{
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.h1-centro{
+    text-align: center
+}
+.p-centro{
+    text-align: center
+}
+
+/* APARTADO JUEGO */
+
+.preface{
+    color: #880000;
+    margin: 0 0 15px 0;    
+}
+
+
